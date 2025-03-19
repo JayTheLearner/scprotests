@@ -9,6 +9,12 @@
         color: red;
     }
 
+.table-wrapper
+    {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
 #headlinebox
     {
         width: 100%;
@@ -19,6 +25,8 @@
     {
         margin: 0 auto;
         width: 75%;
+       
+        border-collapse: collapse;
     }
 
 .tablecolumns
