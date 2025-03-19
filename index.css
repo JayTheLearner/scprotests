@@ -18,12 +18,14 @@
 #tablebig
     {
         margin: 0 auto;
+        width: 75%;
     }
 
 .tablecolumns
     {
         display: grid;
-        grid-template-columns: 150px  100px 100px 400px  150px;
+        grid-template-columns: 15%  10% 10% 50% 15%;
+        
     }
 
 .leftcolumn
