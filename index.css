@@ -64,3 +64,23 @@
     {
         background-color: #003d74;
     }
+
+td, th
+    {
+        word-wrap: break-word;
+        word-break: break-word;
+        white-space: normal;
+        padding: 8px;
+    }
+
+@media (max-width: 600px)
+    {
+        #tablebig {
+        font-size: 14px;
+    }
+      
+.celldata
+    {
+        padding: 4px;
+    }
+}
