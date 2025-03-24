@@ -1,4 +1,9 @@
 *
+{
+    color: white;
+}
+
+body
     {
         background-color: darkblue;
         color: white;
@@ -33,6 +38,7 @@
     {
         display: grid;
         grid-template-columns: 15%  10% 10% 50% 15%;
+       
         
     }
 
@@ -60,10 +66,7 @@
         border-right: 1px solid white;
     }
 
-.lighterblue
-    {
-        background-color: #003d74;
-    }
+
 
 td, th
     {
@@ -84,3 +87,7 @@ td, th
         padding: 4px;
     }
 }
+tr:nth-child(even)
+    {
+        background-color: #003d74;
+    }
