@@ -76,7 +76,7 @@ td, th
         padding: 8px;
     }
 
-@media (max-width: 600px)
+@media (max-width: 700px)
     {
         #tablebig {
         font-size: 14px;
